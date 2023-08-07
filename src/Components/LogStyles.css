@@ -1,0 +1,214 @@
+.first-log {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    overflow: hidden;   
+    width: 1440px;
+}
+
+.log-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: content;
+}
+
+.log-left {
+    margin-left: -77px;
+}
+.log-left img {
+    width: 800px;
+    height: 1106px;
+}
+
+.log-right-header  {
+    font-weight: 200;
+    font-size: 90px;
+    margin-top: 250px;
+    margin-left: -25px;
+    color: #372723;
+
+}
+.log-right-header span{
+text-shadow: 0px 4px 4pc #000000;
+}
+.log-log {
+    display: grid;
+    width: 508px;
+    border-radius: 40px;
+    padding: 2rem;
+    background-color: #FECD81;
+    margin-left: 90px;
+    margin-top: 80px;
+    justify-content: center;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.log-log-tit h2{
+    font-size: 60px;
+    color: #372723;
+    text-shadow: 0px 3px 2pc #000000;
+}
+.log-log-contain{
+    display: grid;
+    padding: 0.7rem 2rem;
+}
+.log-log-contain input[type="email"],[type="password"]{
+    border: 1px solid white;
+    width: 396px;
+    height: 80px;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+::placeholder{
+    color: #37272370;
+}
+.log-log-contain button{
+    width: 183px;
+    height: 42px;
+    background-color: #B88E57;
+    border-radius: 39px;
+    -webkit-border-radius: 39px;
+    -moz-border-radius: 39px;
+    -ms-border-radius: 39px;
+    -o-border-radius: 39px;
+    border: 1px solid #B88E57;
+    margin-top: 15px;
+    margin-left: 98px;
+    font-size: 25px;
+}
+.log-log-contain button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.log-log-sign .hom-log-p{
+    color: #372723;
+    font-size: 25px;
+    margin-top: 14px;
+    text-shadow: 0px 3px 3px #000000;
+}
+.log-log-sign .log-log-a{
+    text-decoration: none;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px #000000;
+}
+
+@media  (width<850px) {
+    .first-log{
+      background: url(../images/login2.jpg)  ;
+      background-repeat:no-repeat;
+      background-size: 100% 100%;
+      width: 850px;
+    }
+    .log-left img{
+        background: none;
+        display: none;
+    }
+    .log-right-header{
+        font-weight: 200;
+        font-size: 70px;
+        text-align: left;
+        margin-top: 96px;
+        margin-left: 160px;
+        color: #372723;
+    }
+    .log-right-header::after{
+        content: 'To (agency' 
+        'name)';
+        position: absolute;
+        font-weight: 200;
+        font-size: 59px;
+        text-align: left;
+        margin-top: 22px;
+        margin-left: 50px;
+        color: #372723;
+    }
+    .log-log {
+        display: grid;
+        width: 280px;
+        height: 280px;
+        border-radius: 40px;
+        padding: 2rem;
+        background-color: #FFF4E5B5;
+        margin-left: 250px;
+        margin-top: 200px;
+        justify-content: center;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+    }
+    .log-log-tit h2{
+        font-size: 35px;
+        color: #372723;
+        text-shadow: 0px 3px 2pc #000000;
+    }
+    .log-log-contain input[type="email"],[type="password"]{
+        border: 1px solid white;
+        width: 287px;
+        height: 46px;
+        border-radius: 40px;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 10px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+    }
+    ::placeholder{
+        color: #37272370;
+    }
+    .log-log-contain button{
+        width: 113px;
+        height: 26px;
+        background-color: #B88E57;
+        border-radius: 39px;
+        -webkit-border-radius: 39px;
+        -moz-border-radius: 39px;
+        -ms-border-radius: 39px;
+        -o-border-radius: 39px;
+        border: 1px solid #B88E57;
+        margin-top: 10px;
+        margin-left: 80px;
+        font-size: 15px;
+    }
+    .log-log-contain button a{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    .log-log-sign .hom-log-p{
+        color: #FFFFFF;
+        font-size: 11px;
+        margin-top: 10px;
+        text-shadow: 0px 3px 3px #000000;
+    }
+    .log-log-sign .log-log-a{
+        text-decoration: none;
+        color: #372723;
+        text-shadow: 0px 4px 4px #000000;
+    }
+    
+    .log-log{
+      width: 350px;
+    }
+  
+  }
+  
+  @media  (width<1300px) {
+    .log-right{
+      width: 300px;
+    }
+  }
+
+
+
+
+
+

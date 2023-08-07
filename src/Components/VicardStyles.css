@@ -1,0 +1,296 @@
+.first-card {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    overflow: hidden;   
+    width: 1510px;
+}
+
+.card-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: content;
+}
+
+.card-left img{
+    margin-top: 50%;
+}
+.card-right-header  {
+    font-weight: 300;
+    font-size: 100px;
+    margin-top: 190px;
+    margin-right: -120px;
+    color: #B98155;
+
+}
+
+.card-cont {
+    width: 838px;
+    height: 431px;
+    border-radius: 40px;
+    padding: 2rem;
+    background-color: #FECD81;
+    margin-left: 20%;
+    margin-top: 20px;
+    justify-content: center;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+
+.card-cont-number input[type="number"]{
+    border: 1px solid #B88E57;
+    width: 783px;
+    height: 84px;
+    border-radius: 40px;
+    text-align: start;
+    padding-left: 50px;
+    font-size: 30px;
+    color: #372723;
+    margin-top: 25px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.card-cont-number {
+    position: relative;
+}
+.card-logos {
+    position: absolute;
+    right: 20px;
+    top: 58%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.card-logo1 {
+    width: 77px;
+    height: 59.66px;
+}
+.card-logo2 {
+    width: 116px;
+    height: 35.54px;
+    margin-left: 10px;
+}
+  .card-one-row{
+    display: flex;
+    margin-top: -120;
+}
+
+.card-one-row input[type="text"], [type="tel"]{
+    border: 1px solid #B88E57;
+    height: 84px;
+    border-radius: 40px;
+    text-align: start;
+    padding-left: 50px;
+    font-size: 30px;
+    margin-top: 25px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.card-expiry input[type="text"]{
+    width: 591px;
+    margin-right: 22px;
+}
+.card-cvv input[type="tel"]{
+    width: 167px;
+}
+input[type="number"],[type="tel"]::placeholder{
+    color: #372723;
+}
+input[type="text"]::placeholder{
+    color: #372723;
+}
+
+.card-cont button{
+    width: 308px;
+    height: 84px;
+    background-color: #B88E57;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    border: 1px solid #B88E57;
+    margin-top: 50px;
+    margin-left: -20px;
+}
+.card-cont button a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
+.card-cont-card .card-cont-p{
+    color: #372723;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: -30%;
+}
+.card-cont-card .card-cont-a{
+    text-decoration: none;
+    color: #B88E57;
+}
+
+@media (width < 850px){
+    .first-card{
+      background: url(../images/visa2.jpg)rgba(255, 244, 229, 0.71) ;
+      background-repeat:no-repeat;
+      background-size: 100% 100%;
+    }
+    .card-left img{
+        display: none;
+    }
+    .card-right-header  {
+        font-size: 50px;
+        margin-top: 90px;
+        margin-left: -1150px;
+        color: #EAD9C2;
+    
+    }
+    
+    .card-cont {
+        width: 538px;
+        height: 340px;
+        border-radius: 40px;
+        padding: 2rem;
+        background-color: #FFF4E5B5;
+        margin-left: -200px;
+        margin-top: 11px;
+        justify-content: center;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+    }
+    
+    
+    .card-cont-number input[type="number"]{
+        border: 1px solid #B88E57;
+        width: 488px;
+        height: 64px;
+        border-radius: 40px;
+        text-align: start;
+        padding-left: 30px;
+        font-size: 20px;
+        color: #372723;
+        margin-top: 25px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+    }
+    
+    .card-cont-number {
+        position: relative;
+    }
+    .card-logos {
+        position: absolute;
+        right: 10px;
+        top: 63%;
+        transform: translateY(-50%);
+        display: flex;
+        align-items: center;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+    }
+    .card-logo1 {
+        width: 57px;
+        height: 45px;
+    }
+    .card-logo2 {
+        width: 95px;
+        height: 27px;
+        margin-left: 10px;
+    }
+      .card-one-row{
+        display: flex;
+        margin-top: -120;
+    }
+    
+    .card-one-row input[type="text"], [type="tel"]{
+        border: 1px solid #B88E57;
+        height: 64px;
+        border-radius: 40px;
+        text-align: start;
+        padding-left: 30px;
+        font-size: 20px;
+        margin-top: 25px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+    }
+    
+    .card-expiry input[type="text"]{
+        width: 350px;
+        margin-right: 22px;
+    }
+    .card-cvv input[type="tel"]{
+        width: 113px;
+    }
+    input[type="number"],[type="tel"]::placeholder{
+        color: #372723;
+    }
+    input[type="text"]::placeholder{
+        color: #372723;
+    }
+    
+    .card-cont button{
+        width: 208px;
+        height: 54px;
+        background-color: #B88E57;
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+        border: 1px solid #B88E57;
+        margin-top: 25px;
+        margin-left: -20px;
+    }
+    .card-cont button a{
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    
+    
+    
+    .card-cont-card .card-cont-p{
+        color: #FFFFFF;
+        font-size: 22px;
+        margin-top: 15px;
+        margin-left: -1260px;
+    }
+    .card-cont-card .card-cont-a{
+        text-decoration: none;
+        color: black;
+    }
+
+}
+
+
+
+
+

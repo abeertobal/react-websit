@@ -1,0 +1,22 @@
+.circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+  
+  .twitter-icon {
+    color: #B88E57;
+    width: 25px;
+    height: 40px;
+  }
